@@ -62,7 +62,6 @@ body {
 .icons {
   margin-top: 40px;
   width: 200px;
-  border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -74,6 +73,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-top: 10px;
 }
 
 .project {
@@ -81,8 +81,58 @@ body {
   justify-content: space-evenly;
   flex-direction: column;
   width: 500px;
-  height: 400px;
-  border: 1px solid red;
+  height: 475px;
   margin: 20px;
   align-items: center;
+  padding: 10px;
+  box-shadow: 0 0 8px #bc6c25;
+  border-radius: 12px;
+}
+
+.project > h1 {
+  margin-top: 15px;
+}
+
+.about-project {
+  width: 450px;
+  text-align: left;
+  padding: 5px;
+}
+
+.about-project > p {
+  margin-top: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.demo-btn {
+  width: 150px;
+  height: 45px;
+  border: none;
+  background-color: #dda15e;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  box-shadow: 3px 3px #bc6c25;
+  font-family: "Lekton", sans-serif;
+}
+
+.demo-btn:hover {
+  cursor: pointer;
+  background: #606c38;
+  box-shadow: 3px 3px #283618;
+  color: white;
+}
+
+.tag {
+  font-weight: bold;
+}
+
+.git {
+  text-align: center;
+  margin: 40px auto 50px auto;
+}
+
+.more-btn {
+  width: 170px;
 }
