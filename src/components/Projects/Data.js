@@ -6,7 +6,7 @@ const projects = [
     about:
       "A quiz app with options to select Category, Difficulty level, type of question. Here i have used an trivia API to fetch questions and display it by iterating over the json data using map",
     skills: "ReactJs, JavaScript, CSS Flexbox",
-    tools: "VS Code, Github",
+    tools: "VS Code, GIT and Github",
     url: "https://rococo-elf-6e2054.netlify.app/",
   },
   {
@@ -16,7 +16,7 @@ const projects = [
     about:
       "A rondom password generator app. Where user can select the length of the password required from the given option. By clicking on the generated password it copies to clipboard directly.",
     skills: "ReactJs, JavaScript, CSS Flexbox",
-    tools: "VS Code, Github",
+    tools: "VS Code, GIT and Github",
     url: "https://gregarious-kleicha-2fbdfd.netlify.app/",
   },
   {
@@ -26,7 +26,7 @@ const projects = [
     about:
       "A simple game, where user should keep on selecting the same value displayed to finish the game.",
     skills: "ReactJs, JavaScript, CSS Flexbox",
-    tools: "VS Code, Github",
+    tools: "VS Code, GIT and Github",
     url: "https://sprightly-faloodeh-963178.netlify.app/",
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     about:
       "Generate random meme from an hundreds of images fetched from API. User can write over the image with the help of input feild provided.",
     skills: "ReactJs, JavaScript, CSS Flexbox",
-    tools: "VS Code, Github",
+    tools: "VS Code, GIT and Github",
     url: "https://kaleidoscopic-kulfi-0e51c6.netlify.app/",
   },
   {
@@ -46,7 +46,7 @@ const projects = [
     about:
       "User can register and login to the app. Here data is saved to local storage. It checks for password match.",
     skills: "ReactJs, JavaScript, CSS Flexbox",
-    tools: "VS Code, Github",
+    tools: "VS Code, GIT and Github",
     url: "https://iridescent-bunny-fddeae.netlify.app/",
   },
   {
@@ -54,9 +54,9 @@ const projects = [
     image: `${process.env.PUBLIC_URL}/images/ScoreBoard.png`,
     name: "Score Board",
     about:
-      "Basketball Scoreboard, where user can add score to the teams and save the current score.",
+      "Basketball Scoreboard, where user can add score to the Home and Guest teams and can save the current score locally.",
     skills: "ReactJs, JavaScript, CSS Flexbox",
-    tools: "VS Code, Github",
+    tools: "VS Code,GIT and Github",
     url: "https://charming-panda-12befe.netlify.app/",
   },
 ];

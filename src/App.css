@@ -201,6 +201,8 @@ body {
   font-weight: bold;
   color: #283618;
   margin: 8px;
+  padding-bottom: 5px;
+  border-bottom: 1.5px solid #780000;
 }
 
 .web {
@@ -262,6 +264,7 @@ body {
   }
   .home {
     margin-left: 15px;
+    height: 70vh;
   }
   .project {
     width: 430px;
