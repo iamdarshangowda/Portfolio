@@ -10,7 +10,7 @@ export default function Skills() {
       <ul className="list">
         <li>HTML</li>
         <li>CSS</li>
-        <li>BootStrap</li>
+        <li>Bootstrap</li>
         <li>JavaScript</li>
         <li>GIT and GitHub</li>
         <li>Responsive Web Development</li>

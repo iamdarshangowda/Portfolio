@@ -205,3 +205,45 @@ body {
 .web {
   color: #780000;
 }
+
+/* About */
+
+.about-container {
+  display: flex;
+  margin: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.profile-img {
+  margin: 10px;
+}
+
+.profile-img > img {
+  box-shadow: 0 0 10px #bcb8b1;
+}
+
+.about-text {
+  width: 750px;
+  height: 350px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-text > h1 {
+  font-family: "Alike", serif;
+  font-size: 3em;
+  color: #283618;
+}
+
+.about-detail {
+  margin-top: 15px;
+  font-size: 1.2em;
+  color: #283618;
+  font-weight: bold;
+}
+
+.about-detail > a {
+  color: #780000;
+}
