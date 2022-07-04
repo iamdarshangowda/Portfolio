@@ -136,3 +136,72 @@ body {
 .more-btn {
   width: 170px;
 }
+
+/* Skills */
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 10px 25px 10px;
+}
+
+.skill-container > h1,
+.certify > h1 {
+  color: #283618;
+  font-family: "Alike", serif;
+}
+
+.list {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.list > li {
+  height: 50px;
+  width: 260px;
+  margin: 10px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.1em;
+  font-family: "Alike", serif;
+  font-weight: bold;
+  color: #283618;
+  border: 2px solid #606c38;
+  border-radius: 10px;
+}
+
+.list > li:hover {
+  box-shadow: 5px 5px #ccd5ae;
+}
+
+.certify {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.certify-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 15px;
+}
+
+.certify-links > a {
+  text-decoration: none;
+  font-size: 1.1em;
+  font-family: "Alike", serif;
+  font-weight: bold;
+  color: #283618;
+  margin: 8px;
+}
+
+.web {
+  color: #780000;
+}
