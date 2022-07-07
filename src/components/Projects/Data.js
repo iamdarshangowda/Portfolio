@@ -11,6 +11,16 @@ const projects = [
   },
   {
     id: 2,
+    image: `${process.env.PUBLIC_URL}/images/Todo.png`,
+    name: "Todo App",
+    about:
+      "Todo App to manage all your daily tasks. Here user can add due date and status along with title and description of the tasks. User can able to perform filter and sort based on time, status and alphabetical  order",
+    skills: "ReactJs with Ant design, JavaScript, CSS Flexbox",
+    tools: "VS Code, GIT and Github",
+    url: "https://dapper-kashata-6e793f.netlify.app/",
+  },
+  {
+    id: 3,
     image: `${process.env.PUBLIC_URL}/images/PasswordGenerator.png`,
     name: "Password Generator",
     about:
@@ -20,7 +30,7 @@ const projects = [
     url: "https://gregarious-kleicha-2fbdfd.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     image: `${process.env.PUBLIC_URL}/images/Tenzies.png`,
     name: "Tenzies Game",
     about:
@@ -30,7 +40,7 @@ const projects = [
     url: "https://sprightly-faloodeh-963178.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     image: `${process.env.PUBLIC_URL}/images/Meme.png`,
     name: "Meme Generator",
     about:
@@ -40,7 +50,7 @@ const projects = [
     url: "https://kaleidoscopic-kulfi-0e51c6.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     image: `${process.env.PUBLIC_URL}/images/Form.png`,
     name: "Form Validation",
     about:
@@ -50,7 +60,7 @@ const projects = [
     url: "https://iridescent-bunny-fddeae.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     image: `${process.env.PUBLIC_URL}/images/ScoreBoard.png`,
     name: "Score Board",
     about:
@@ -58,6 +68,16 @@ const projects = [
     skills: "ReactJs, JavaScript, CSS Flexbox",
     tools: "VS Code,GIT and Github",
     url: "https://charming-panda-12befe.netlify.app/",
+  },
+  {
+    id: 8,
+    image: `${process.env.PUBLIC_URL}/images/ColorFlipper.png`,
+    name: "Color Flipper",
+    about:
+      "Generates random color and its colors hex code. User can use this code anywhere to apply the that color",
+    skills: "JavaScript, CSS Flexbox",
+    tools: "VS Code,GIT and Github",
+    url: "https://preeminent-creponne-633dec.netlify.app/",
   },
 ];
 
