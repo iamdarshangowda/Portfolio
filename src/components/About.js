@@ -5,7 +5,7 @@ export default function About() {
     <div className="about-container">
       <div className="profile-img">
         <img
-          src={`${process.env.PUBLIC_URL}/images/profile-pic.jpg`}
+          src={`${process.env.PUBLIC_URL}/images/profile-pic.png`}
           alt="darshan profile photo"
           style={{ width: "300px", borderRadius: "14px" }}
         />

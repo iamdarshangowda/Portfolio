@@ -20,10 +20,10 @@ export default function ProjectList() {
                   <span className="tag">Skills: </span>
                   {item.skills}
                 </p>
-                <p>
+                {/*<p>
                   <span className="tag">Tools: </span>
                   {item.tools}
-                </p>
+                </p>*/}
               </div>
               <a href={item.url} target="_blank">
                 <button className="demo-btn">LIVE PAGE</button>
