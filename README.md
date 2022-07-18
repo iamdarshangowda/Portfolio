@@ -1,4 +1,4 @@
-My Portfolio | <a href="https://stupendous-centaur-a13b0b.netlify.app/">DEMO</a>
+My Portfolio | <a href="https://darshan-gowda-portfolio.netlify.app/">DEMO</a>
 
 # Getting Started with Create React App
 
