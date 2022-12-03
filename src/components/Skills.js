@@ -1,7 +1,6 @@
 import React from "react";
 import { FaFreeCodeCamp } from "react-icons/fa";
 import { TbPentagon } from "react-icons/tb";
-import { GrCertificate } from "react-icons/gr";
 
 export default function Skills() {
   return (
@@ -10,11 +9,11 @@ export default function Skills() {
       <ul className="list">
         <li>HTML</li>
         <li>CSS</li>
-        <li>Bootstrap</li>
         <li>JavaScript</li>
-        <li>GIT and GitHub</li>
-        <li>Responsive Web Development</li>
         <li>ReactJs</li>
+        <li>Nextjs</li>
+        <li>TypeScript</li>
+        <li>Material UI</li>
       </ul>
       <div className="certify">
         <h1>Certification</h1>

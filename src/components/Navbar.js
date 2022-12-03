@@ -13,6 +13,9 @@ export default function Navbar() {
       <Link to="/Skills" className="nav">
         Skills
       </Link>
+      <Link to="/Blogs" className="nav">
+        Blogs
+      </Link>
       <Link to="/About" className="nav">
         About
       </Link>
