@@ -28,7 +28,7 @@ export default function About() {
         <p className="about-detail">
           Download my resume{" "}
           <a
-            href="https://drive.google.com/file/d/1FU_69zl8qIPJReygmKb12sk_hkNo_gbT/view?usp=sharing"
+            href="https://drive.google.com/file/d/1zE50SHT8uy6WjE2e8uEz6t8KSqaC60lt/view?usp=drive_link"
             target="_blank"
           >
             here
