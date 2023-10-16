@@ -5,7 +5,11 @@ export const Card = ({ item, buttonText }) => {
     <div className="project">
       <img
         src={item.image}
-        style={{ width: "300px", height: "170px", borderRadius: "8px" }}
+        style={{
+          width: "300px",
+          height: "170px",
+          borderRadius: "8px",
+        }}
         alt="project demo"
       />
       <h1>{item.name}</h1>

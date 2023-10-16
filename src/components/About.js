@@ -19,8 +19,9 @@ export default function About() {
         <p className="about-detail">
           A self-taught Developer with high vision and forward thinking.
           Committed to learning and self-development to achieve better results.
-          Proficient with <mark>HTML, CSS, JavaScript and ReactJs.</mark> Always
-          open to constructive feedback. Effective Problem-Solving skills with
+          Proficient with{" "}
+          <mark>ReactJs, NextJs, Typescript and TailwindCSS.</mark> Always open
+          to constructive feedback. Effective Problem-Solving skills with
           ability to work as an individual or in a team environment.
         </p>
         <p className="about-detail">Can't wait to work with you!</p>

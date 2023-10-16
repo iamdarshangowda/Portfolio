@@ -13,7 +13,7 @@ export default function Skills() {
         <li>ReactJs</li>
         <li>Nextjs</li>
         <li>TypeScript</li>
-        <li>Material UI</li>
+        <li>TailwindCSS</li>
       </ul>
       <div className="certify">
         <h1>Certification</h1>

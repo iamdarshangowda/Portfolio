@@ -1,23 +1,23 @@
 const projects = [
   {
     id: 1,
-    image: `${process.env.PUBLIC_URL}/images/QuizzApp.png`,
-    name: "Quizz App",
-    about:
-      "A quiz app with options to select Category, Difficulty level, type of question. Here i have used an trivia API to fetch questions and display it by iterating over the json data using map",
-    skills: "ReactJs, JavaScript, CSS Flexbox",
-    tools: "VS Code, GIT and Github",
-    url: "https://rococo-elf-6e2054.netlify.app/",
-  },
-  {
-    id: 2,
     image: `${process.env.PUBLIC_URL}/images/Todo.png`,
     name: "Todo App",
     about:
-      "Todo App to manage all your daily tasks. Here user can add due date and status along with title and description of the tasks. User can able to perform filter and sort based on time, status and alphabetical  order",
-    skills: "ReactJs with Ant design, JavaScript, CSS Flexbox",
+      "Todo App to manage all your daily tasks. Also you can add Voice Notes and Sticky Notes",
+    skills: "NextJs, TypeScript and TailwindCSS",
     tools: "VS Code, GIT and Github",
-    url: "https://dapper-kashata-6e793f.netlify.app/",
+    url: "https://todo-app-fullstack-git-main-iamdarshangowda.vercel.app",
+  },
+  {
+    id: 2,
+    image: `${process.env.PUBLIC_URL}/images/Shoppe.png`,
+    name: "Shoppe",
+    about:
+      "E-commerce app with filter and search option. User can add to cart by quantity and size and checkout. Google Login using Firebase",
+    skills: "NextJs, TypeScript and MaterialUI",
+    tools: "VS Code, GIT and Github",
+    url: "https://shoppe-store.netlify.app/home",
   },
   {
     id: 3,
@@ -61,13 +61,13 @@ const projects = [
   },
   {
     id: 7,
-    image: `${process.env.PUBLIC_URL}/images/ScoreBoard.png`,
-    name: "Score Board",
+    image: `${process.env.PUBLIC_URL}/images/QuizzApp.png`,
+    name: "Quizz App",
     about:
-      "Basketball Scoreboard, where user can add score to the Home and Guest teams and can save the current score locally.",
+      "A quiz app with options to select Category, Difficulty level, type of question. Here i have used an trivia API to fetch questions and display it by iterating over the json data using map",
     skills: "ReactJs, JavaScript, CSS Flexbox",
-    tools: "VS Code,GIT and Github",
-    url: "https://charming-panda-12befe.netlify.app/",
+    tools: "VS Code, GIT and Github",
+    url: "https://rococo-elf-6e2054.netlify.app/",
   },
   {
     id: 8,
